@@ -1,0 +1,44 @@
+package com.qsoft.bankaccount;
+public class BankAccountDTO {
+
+	String accountNumber;
+	float balance;
+
+	public BankAccountDTO(String accountNumber, float balance) {
+		// TODO Auto-generated constructor stub
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+
+	}
+
+	/**
+	 * @return the accountNumber
+	 */
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	/**
+	 * @param accountNumber
+	 *            the accountNumber to set
+	 */
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	/**
+	 * @return the balance
+	 */
+	public float getBalance() {
+		return balance;
+	}
+
+	/**
+	 * @param balance
+	 *            the balance to set
+	 */
+	public void setBalance(float balance) {
+		this.balance = balance;
+	}
+
+}
